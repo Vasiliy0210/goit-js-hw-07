@@ -6,7 +6,6 @@ const output = document.querySelector('#name-output')
 input.addEventListener('input', handleOutputValue)
 
 function handleOutputValue(event) {
-    console.log(event.currentTarget.value)
     if (input.value) {
         output.textContent = event.currentTarget.value;
     } else {
